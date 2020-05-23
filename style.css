@@ -1,31 +1,41 @@
 .circle1{
-    width: 200px
-    height: 200px
-    background-color: purple
-    border-radius: 100%
+    width:200px
+    height:200px
+    background-color:purple
+    border-radius:100%
+    top:50px
+    left:50px
 }
 
 .circle2{
-    width: 200px
-    height: 200px
-    background-color: yellow
-    border-radius: 100%
+    width:200px
+    height:200px
+    background-color:yellow
+    border-radius:100%
+    top:50px
+    rigth:50px
 }
 
 .rectangle1{
-    width: 500px
-    height: 200px
-    background-color: blue 
+    width:500px
+    height:200px
+    background-color:blue 
+    top: 300px
+    left:50px
 }
 
 .rectangle2{
-    width: 500px
-    height: 200px
-    background-color: grey
+    width:500px
+    height:200px
+    background-color:grey
+    top:550px
+    left:50px
 }
 
 rectangle3{
-    width: 500px
-    height: 200px
-    background-color: green
+    width:500px
+    height:200px
+    background-color:green
+    top:800px
+    left:50px
 }
