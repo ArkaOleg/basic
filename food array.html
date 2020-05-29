@@ -2,29 +2,50 @@
 <html lang="en">
 <head>
 
-    <meta charset="utf-8">
-    <title>Food arrays</title>
+    <title>Number arrays</title>
 
 </head>
 
 <body>
 
+<h1><p>Number arrays</p></h1>
 
-    <h2>Food arrays</h2>
+<button onclick="myFunction()">Click here</button>
 
-    <p id="demo"></p>
-     
-    <script>
-        var food = ["apple", "banana", "steak", "fish", "ham"];
-        food[0] = "ham";
-        
-        document.getElementById("demo").innerHTML = food;
-
-        concat(food)
-
-    </script>
+<p id="demo"></p>
 
 
+<script>
+    var aaa = ["cero", "uno", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve", "diez"]
+  
+    var first = aaa[0]
+    aaa[0] = "cero"
+    var last = aaa[aaa.length-1]
+
+    document.getElementById("demo").innerHTML = aaa;
+
+    var aaa, text;
+    aaa = ["cero", "uno", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve", "diez"];
+
+    text = "<ul>";
+    aaa.forEach(myFunction);
+    text += "</ul>";
+
+    function myFunction(value) {
+    text += "<li>" + value + "</li>";
+    } 
+
+ 
+    function myFunction() {
+        aaa.push("once");
+        aaa.push("doce")
+
+    
+        document.getElementById("demo").innerHTML = aaa
+    }
+
+</script>
 </body>
-s
+
 </html>
+

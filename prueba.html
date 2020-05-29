@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript arrays</title>
+</head>
+<body>
+    <script>
+
+    var numbers = ["cero", "uno", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve"]
+    var cars = ["Opel", "Fiat", "Ford", "Mercedes", "Seat"]
+    var provinces = ["Cantabria", "Bizkaia", "Alava", "Burgos"]
+
+    document.write(numbers + "<br>");
+    document.write(cars + "<br>");
+    document.write(provinces + "<br>");
+
+
+    document.write(cars.length + "<br>");
+    
+    var numbers = ["cero", "uno", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve"]
+    for(var i = 0; i < numbers.length; i++){
+        document.write(numbers[i] + "<br>");
+    }
+   
+
+    var provinces = ["Cantabria", "Bizkaia", "Alava", "Burgos"]
+    provinces.push("Asturias")
+    for(var i = 0; i < provinces.length; i++){
+        document.write(provinces[i] + "<br>");
+    }
+    document.write(provinces.length) 
+   
+    var numbers = ["cero", "uno", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve"]
+    var last = numbers.pop() + "<br>";
+
+    document.write(last + "<br>");
+    document.write(numbers.length - 2);
+   
+
+ 
+
+
+    </script>
+
+   
+
+</body>
+</html>
